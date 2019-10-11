@@ -514,7 +514,8 @@ section {
     transition: .5s all;
 }
 
-.dropdown-menu li a {
+.dropdown-menu li a,
+.dropdown-menu li p {
     font-weight: 400;
     font-size: 14px;
     display: block;
@@ -522,7 +523,8 @@ section {
     border-bottom: 1px solid #e8e8e8;
 }
 
-.menu_mm .dropdown-menu li a {
+.menu_mm .dropdown-menu li a,
+.menu_mm .dropdown-menu li p {
     border-bottom: 0;
 }
 
@@ -711,7 +713,8 @@ section {
     margin-bottom: 9px;
 }
 
-.menu_nav ul li a {
+.menu_nav ul li a,
+.menu_nav ul li p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
