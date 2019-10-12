@@ -87,7 +87,13 @@
 5. 1024px
 ************/
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+    .logo_container a img,
+    .footer_logo_container a img {
+        max-width: 200px;
+        max-height: 50px;
+    }
+}
 
 
 /************
@@ -227,7 +233,11 @@
 9. 768px
 ************/
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .mission {
+        border: 0;
+    }
+}
 
 
 /************
@@ -331,7 +341,8 @@
     .header.scrolled {
         top: 0;
     }
-    .logo_container a img {
+    .logo_container a img,
+    .footer_logo_container a img {
         max-width: 200px;
         max-height: 50px;
     }
@@ -343,6 +354,9 @@
     }
     .home_slider_subtitle {
         font-size: 18px;
+    }
+    .mission {
+        border: 0;
     }
 }
 
