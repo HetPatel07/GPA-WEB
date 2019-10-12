@@ -335,6 +335,15 @@
         max-width: 200px;
         max-height: 50px;
     }
+    .home {
+        height: 650px;
+    }
+    .home_slider_title {
+        font-size: 28px;
+    }
+    .home_slider_subtitle {
+        font-size: 18px;
+    }
 }
 
 

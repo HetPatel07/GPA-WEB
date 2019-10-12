@@ -123,7 +123,7 @@ p a:hover::after {
     opacity: 0.2;
 }
 
-::selection {}
+ ::selection {}
 
 p::selection {}
 
@@ -372,7 +372,8 @@ section {
     transition: all 200ms ease;
 }
 
-.logo_container a img {
+.logo_container a img,
+.footer_logo_container a img {
     max-width: 300px;
     max-height: 80px;
 }
@@ -810,7 +811,7 @@ section {
 *********************************/
 
 .section_title_container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -820,10 +821,26 @@ section {
 
 .section_subtitle {
     line-height: 1.85;
-    margin-top: 14px;
+    margin-top: 20px;
 }
 
-.section_background {
+.section_subtitle a {
+    background-color: #e26228;
+    border: 1px solid #e26228;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section_subtitle a:hover {
+    background-color: #fff;
+    color: #e26228;
+}
+
+.section_subtitle a .section_background {
     position: absolute;
     top: 0;
     left: 0;
@@ -874,13 +891,15 @@ section {
     font-family: 'Roboto Slab', serif;
     font-size: 60px;
     font-weight: 700;
+    text-shadow: 0px 0px 10px #333;
     line-height: 1.2;
-    color: #384158;
+    color: #f3f3f3;
 }
 
 .home_slider_subtitle {
     font-size: 24px;
-    color: #76777a;
+    color: #f9f9f9;
+    text-shadow: 0px 0px 20px black;
     margin-top: 9px;
 }
 
@@ -1040,10 +1059,8 @@ section {
 
 .feature_icon {
     height: 55px;
-}
-
-.feature_icon img {
-    max-width: 100%;
+    font-size: 50px;
+    color: #e26228;
 }
 
 .feature_title {
@@ -1060,7 +1077,6 @@ section {
 .courses {
     width: 100%;
     padding-top: 93px;
-    padding-bottom: 100px;
 }
 
 .courses_row {
@@ -1072,93 +1088,6 @@ section {
     border-radius: 6px;
     background: #FFFFFF;
     box-shadow: 0px 1px 10px rgba(29, 34, 47, 0.1);
-}
-
-.course_image {
-    width: 100%;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    overflow: hidden;
-}
-
-.course_image img {
-    max-width: 100%;
-}
-
-.course_body {
-    padding-top: 22px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 23px;
-}
-
-.course_title a {
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    color: #384158;
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease;
-}
-
-.course_title a:hover {
-    color: #e26228;
-}
-
-.course_teacher {
-    font-size: 15px;
-    font-weight: 400;
-    color: #384158;
-    margin-top: 6px;
-}
-
-.course_text {
-    margin-top: 13px;
-}
-
-.course_footer {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.course_footer_content {
-    width: 100%;
-    border-top: solid 1px #e5e5e5;
-    padding-top: 9px;
-    padding-bottom: 11px;
-}
-
-.course_info {
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 400;
-    color: #55555a;
-}
-
-.course_info:first-child {
-    margin-right: 18px;
-}
-
-.course_info i {
-    color: #ffc80a;
-}
-
-.course_price {
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #e26228;
-}
-
-.course_price span {
-    font-family: 'Roboto Slab', serif;
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: line-through;
-    color: #b5b8be;
-    margin-right: 10px;
 }
 
 .courses_button {
@@ -1183,6 +1112,79 @@ section {
     text-transform: uppercase;
     line-height: 46px;
     color: #FFFFFF;
+}
+
+.campus-part {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.about-list {
+    padding-left: 25px;
+}
+
+.about-list::after {
+    content: '\f0a4';
+    font-family: FontAwesome;
+    color: #384158;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.about-fees p {
+    font-size: 16px;
+}
+
+.about-fees p span a {
+    color: #e26228;
+}
+
+.about-fees p span a:hover {
+    color: #e26228;
+    background: none;
+}
+
+.web-link a {
+    text-decoration: none !important;
+}
+
+.card-bg {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+.map-img {
+    background-image: url(../images/campus_map.jpg);
+}
+
+.facility-img {
+    background-image: url(../images/facility.jpg);
+}
+
+.library-img {
+    background-image: url(../images/library.jpg);
+}
+
+.studentsec-img {
+    background-image: url(../images/studentSction.jpg);
+}
+
+.lecture-img {
+    background-image: url(../images/lactureSeries.jpg);
+}
+
+.card-text {
+    color: #898989;
+    font-weight: 400;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-text:hover {
+    color: #e26228;
 }
 
 
@@ -1999,6 +2001,32 @@ section {
     font-size: 14px;
     font-weight: 400;
     color: #b5b8be;
+    position: relative;
+}
+
+.footer_contact_info ul li:nth-child(1)::after {
+    content: '\f0e0';
+    font-family: FontAwesome;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.footer_contact_info ul li:nth-child(2)::after {
+    content: '\f095';
+    font-family: FontAwesome;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.footer_contact_info ul li:nth-child(3)::after {
+    content: '\f041';
+    font-family: FontAwesome;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .footer_contact_info ul li:not(:last-child) {
@@ -2093,4 +2121,8 @@ section {
 
 .cr_list li a:hover {
     color: #e26228;
+}
+
+.copyright_row {
+    opacity: 0;
 }
