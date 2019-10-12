@@ -486,6 +486,7 @@ section {
     border: 0;
     margin-top: 10px;
     margin-left: 20px;
+    width: 100%;
     position: relative;
 }
 
@@ -646,9 +647,7 @@ section {
     height: 100vh;
     background: #FFFFFF;
     z-index: 101;
-    padding-right: 60px;
-    padding-top: 87px;
-    padding-left: 50px;
+    padding: 87px 20px 0;
 }
 
 .menu .logo a {
@@ -707,6 +706,10 @@ section {
 
 .menu .logo {
     margin-bottom: 60px;
+}
+
+.menu_nav {
+    width: 100%;
 }
 
 .menu_nav ul li {
