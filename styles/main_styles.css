@@ -76,7 +76,7 @@ p {
     font-size: 14px;
     line-height: 1.85;
     font-weight: 400;
-    color: #76777a;
+    color: #fff;
     -webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -158,7 +158,7 @@ h6 {
     -webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    color: #384158;
+    color: #f3f3f3;
     margin-bottom: 0;
 }
 
@@ -360,7 +360,7 @@ section {
 
 .header_container {
     width: 100%;
-    background: #FFFFFF;
+    background: #333;
 }
 
 .header_content {
@@ -455,7 +455,7 @@ section {
 .main_nav li a {
     font-size: 16px;
     font-weight: 500;
-    color: #384158;
+    color: #fff;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -480,6 +480,7 @@ section {
 
 .menu {
     overflow-y: scroll;
+    background: #333;
     overflow-x: hidden;
 }
 
@@ -501,6 +502,7 @@ section {
 
 .dropdown-menu {
     padding: 0;
+    background: #333;
     top: initial;
     width: max-content;
     transition: .5s all;
@@ -623,7 +625,7 @@ section {
 
 .hamburger i {
     font-size: 20px;
-    color: #353535;
+    color: #f3f3f3;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -646,7 +648,7 @@ section {
     right: -400px;
     width: 400px;
     height: 100vh;
-    background: #FFFFFF;
+    background: #333;
     z-index: 101;
     padding: 87px 20px 0;
 }
@@ -683,7 +685,7 @@ section {
 .menu_close div {
     width: 100%;
     height: 2px;
-    background: #232323;
+    background: #f3f3f3;
     top: 8px;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
@@ -722,7 +724,7 @@ section {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 1);
+    color: #fff;
     font-weight: 700;
     letter-spacing: 0.1em;
     -webkit-transition: all 200ms ease;
@@ -998,7 +1000,7 @@ section {
     position: absolute;
     top: 55.8%;
     width: 50px;
-    background: #b6b7bd;
+    background: #333;
     border-radius: 50%;
     text-align: center;
     z-index: 10;
@@ -1035,7 +1037,7 @@ section {
 
 .features {
     width: 100%;
-    background: #FFFFFF;
+    background: #333;
     padding-top: 93px;
     padding-bottom: 103px;
 }
@@ -1050,11 +1052,11 @@ section {
     padding-bottom: 28px;
     padding-left: 15px;
     padding-right: 15px;
-    background: #FFFFFF;
+    background: #333;
 }
 
 .feature:hover {
-    box-shadow: 0px 5px 40px rgba(29, 34, 47, 0.15);
+    box-shadow: 0px 5px 40px rgba(1, 1, 1, 0.4);
 }
 
 .feature_icon {
@@ -1130,7 +1132,7 @@ section {
 .about-list::after {
     content: '\f0a4';
     font-family: FontAwesome;
-    color: #384158;
+    color: #fff;
     position: absolute;
     left: 0;
     top: 0;
@@ -1158,7 +1160,7 @@ section {
 }
 
 .card:hover {
-    box-shadow: 0px 4px 14px 0px lightgrey;
+    box-shadow: 0px 5px 40px rgba(1, 1, 1, 0.81);
 }
 
 .card-bg {
@@ -1910,7 +1912,7 @@ section {
     display: block;
     position: relative;
     width: 100%;
-    background: #1e2434;
+    background: #e26228;
     padding-top: 94px;
 }
 
@@ -2013,7 +2015,7 @@ section {
 .footer_contact_info ul li {
     font-size: 14px;
     font-weight: 400;
-    color: #b5b8be;
+    color: #fff;
     position: relative;
 }
 
@@ -2062,7 +2064,7 @@ section {
 
 .footer_links_container ul li a {
     font-size: 14px;
-    color: #b5b8be;
+    color: #ffff;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -2075,7 +2077,7 @@ section {
 }
 
 .footer_links_container ul li a:hover {
-    color: #e26228;
+    color: #333;
 }
 
 .footer_mobile {
